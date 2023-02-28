@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>میانگین نمرات درسی دانش آموزان</title>
+</head>
+
+<body>
+    <h4>نمرات درسی خود را وارد کنید</h4>
+
+
+    <script>
+        var x1 = prompt("Course grade");
+        console.log(Number(x1) + " " + "نمره اول شما برابر");
+        var x2 = prompt("Course grade");
+        console.log(Number(x2) + " " + "نمره دوم شما برابر");
+        var x3 = prompt("Course grade");
+        console.log(Number(x3) + " " + "نمره سوم شما برابر");
+        var x4 = prompt("Course grade");
+        console.log(Number(x4) + " " + "نمره چهارم شما برابر");
+        var x5 = prompt("Course grade");
+        console.log(Number(x5) + " " + "نمره پنجم شما برابر");
+        var z = Number(x1) + Number(x2) + Number(x3) + Number(x4) + Number(x5);
+        var total = Number(z / 5);
+        console.log(Number(total) + "" + "معدل شما برابر");
+
+        if (total > 15) {
+            alert("تبریک میگم شما پاس شدین");
+
+
+        } else {
+            alert("متاسفم شما پاس نشدین");
+        }
+
+    </script>
+</body>
+
+</html>
